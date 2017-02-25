@@ -30,7 +30,7 @@ app.use(require('webpack-dev-middleware')(compiler, {
   publicPath: config.output.publicPath
 }));
 
-app.use('/css', express.static(__dirname + '/src/css'));
+app.use('/css', express.static(__dirname + '/public/css'));
 
 app.use(stormpath.init(app, {
   // Disable logging until startup, so that we can catch errors
@@ -107,7 +107,7 @@ app.post('/me', stormpath.authenticationRequired, bodyParser.json(), function (r
 });
 
 app.get('*', function (req, res) {
-  res.sendFile(path.join(__dirname, 'src/html/index.html'));
+  res.sendFile(path.join(__dirname, 'public/index.html'));
 });
 
 spinner.text = 'Starting Dev Sever on port ' + port,
