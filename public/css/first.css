@@ -1,0 +1,108 @@
+#habla_window_div {
+    z-index: 5000;
+}
+
+#habla_window_div #habla-callout-bubble-anchor,
+#habla_window_div #habla-callout-bubble-anchor-offline {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+#habla_compressed_div {
+    position: relative;
+}
+
+#habla_window_div .olark-callout-bubble-close-button {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: transparent url(https://static.olark.com/images/close.png) top right no-repeat;
+    z-index: 5001
+}
+
+#habla_window_div #olark-callout-bubble,
+#habla_window_div #olark-callout-bubble-offline {
+    position: absolute;
+    cursor: pointer;
+}
+
+#habla_window_div #olark-callout-bubble {
+    height: 153px;
+    width: 164px;
+}
+
+.olrk-fixed-bottom #olark-callout-bubble {
+    z-index: 5000;
+    position: relative;
+}
+
+.olrk-fixed-top #olark-callout-bubble {
+    z-index: 5000;
+    position: relative;
+}
+
+#habla_window_div #olark-callout-bubble-offline {
+    height: 153px;
+    width: 164px;
+}
+
+.olrk-fixed-bottom #olark-callout-bubble-offline {
+    z-index: 5000;
+    position: relative;
+}
+
+.olrk-fixed-top #olark-callout-bubble-offline {
+    z-index: 5000;
+    position: relative;
+}
+
+.olrk-fixed-top #olark-callout-bubble {
+    top: 0px;
+}
+
+.olrk-fixed-bottom #olark-callout-bubble {
+    bottom: 0px;
+}
+
+.olrk-fixed-left #olark-callout-bubble {
+    right: 0px;
+}
+
+.olrk-fixed-right #olark-callout-bubble {
+    left: 0px;
+}
+
+.olrk-fixed-left .olrk-left-align #olark-callout-bubble {
+    left: 0px;
+}
+
+.olrk-fixed-top #olark-callout-bubble-offline {
+    top: 0px;
+}
+
+.olrk-fixed-bottom #olark-callout-bubble-offline {
+    bottom: 0px;
+}
+
+.olrk-fixed-left #olark-callout-bubble-offline {
+    right: 0px;
+}
+
+.olrk-fixed-right #olark-callout-bubble-offline {
+    left: 0px;
+}
+
+.olrk-fixed-left .olrk-left-align #olark-callout-bubble-offline {
+    left: 0px;
+}
+
+#habla_window_div a:hover {
+    background-color: transparent;
+}
+
+#habla_available_div {
+    display: none;
+}
