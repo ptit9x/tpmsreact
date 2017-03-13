@@ -1,19 +1,19 @@
-var bodyParser = require('body-parser');
-var express = require('express');
-var morgan = require('morgan');
-var ora = require('ora');
-var path = require('path');
-var stormpath = require('express-stormpath');
-var webpack = require('webpack');
+const bodyParser = require('body-parser');
+const express = require('express');
+const morgan = require('morgan');
+const ora = require('ora');
+const path = require('path');
+const stormpath = require('express-stormpath');
+const webpack = require('webpack');
 
-var config = require('./webpack.config');
+const config = require('./webpack.config');
 
-var port = process.env.PORT || 3000;
+const port = process.env.PORT || 3000;
 
-var app = express();
-var compiler = webpack(config);
+const app = express();
+const compiler = webpack(config);
 
-var spinner = ora({
+const spinner = ora({
   interval: 100
 });
 
@@ -30,7 +30,7 @@ app.use(require('webpack-dev-middleware')(compiler, {
   publicPath: config.output.publicPath
 }));
 
-app.use('/css', express.static(__dirname + '/public/css'));
+app.use('/', express.static(__dirname + '/public/'));
 
 app.use(stormpath.init(app, {
   // Disable logging until startup, so that we can catch errors
@@ -87,7 +87,7 @@ app.post('/me', stormpath.authenticationRequired, bodyParser.json(), function (r
   }
 
   if (req.body.password) {
-    var application = req.app.get('stormpathApplication');
+    const application = req.app.get('stormpathApplication');
 
     application.authenticateAccount({
       username: req.user.username,
