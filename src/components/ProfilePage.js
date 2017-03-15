@@ -32,7 +32,7 @@ export default class ProfilePage extends React.Component {
               </div>
             </div>
           </div>
-          <DocumentTitle title={`My Profile`}>
+          <DocumentTitle title={``}>
             <div className="container">
               <div className="row">
                 <div className="col-xs-12">

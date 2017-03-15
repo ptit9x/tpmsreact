@@ -28,8 +28,8 @@ ReactDOM.render(
       <Route path='/contact' component={ContactPage} />
       <Route path='/about' component={AboutPage} />
       <AuthenticatedRoute>
-        <Route path='/profile' component={ProfilePage} />
         <Route path='/dashboard' component={DashboardPage} />
+        <Route path='/profile' component={ProfilePage} />
       </AuthenticatedRoute>
     </HomeRoute>
   </Router>,

@@ -6,7 +6,7 @@ export default class HeaderIndex extends React.Component {
   render() {
     return (
       <div>
-        <div id="header-page-menu" className="header-home-page-top">
+        <div onScroll={this.handerScroll} id="header-page-menu" className="header-home-page-top">
           <HeaderMenu />
         </div>
 
