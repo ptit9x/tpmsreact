@@ -471,3 +471,129 @@
 .nps-Survey[dir="rtl"] .nps-Scale-hint--likely {
     float: left
 }
+.sp-change-password-form .form-control,
+.sp-reset-password-form .form-control,
+.sp-login-form .form-control {
+	display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #8e8e8e;
+    height: 40px;
+    font-family: 'ProximaNovaT-Thin';
+    border: 1px solid #566391;
+    border-radius: 0;
+}
+.sp-update-profile-form .btn-primary,
+.sp-change-password-form .btn-primary,
+.sp-login-form .btn-primary {
+	display: inline-block;
+    width: 100%;
+    background-color: #de4f4f;
+    margin-top: 10px;
+    color: #fff;
+    border: none;
+	padding: 1px 6px;
+	border-radius: 0;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.sp-update-profile-form .control-label,
+.sp-change-password-form .control-label,
+.sp-reset-password-form .control-label,
+.sp-login-form .control-label {
+	color: white;
+}
+.sp-reset-password-form .btn-primary {
+	display: inline-block;
+    background-color: #de4f4f;
+    margin-top: 10px;
+    color: #fff;
+    border: none;
+	padding: 1px 16px;
+	border-radius: 0;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.sp-update-profile-form .form-control {
+	display: inline-block;
+    height: 40px;
+    border: 1px solid #566391;
+    border-radius: 0;
+}
+.sp-reset-password-form .btn-primary {
+	display: inline-block;
+    background-color: #de4f4f;
+    margin-top: 10px;
+    color: #fff;
+    border: none;
+	padding: 1px 16px;
+	border-radius: 0;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.react-tabs [role=tablist] {
+	border-bottom: 0;
+	margin: 0;
+}
+.react-tabs [role=tab] {
+    position: relative;
+    z-index: 9;
+    display: inline-block;
+    padding: 0 30px;
+    text-align: center;
+    border-radius: 0;
+    font-size: 14px;
+    font-family: 'ProximaNova-Light';
+    text-decoration: none;
+    color: #de4f4f;
+    text-transform: uppercase;
+    height: 44px;
+    line-height: 45px;
+    border: 1px solid #de4f4f;
+}
+.react-tabs [role=tab][aria-selected=true] {
+	background-color: #de4f4f;
+	border-color: #de4f4f;
+    color: #fff;
+	border-radius: 0;
+}
+.panel {
+    border: 1px solid #de4f4f;
+	border-radius: 0;
+}
+.btn-warning {
+	background-color: #de4f4f;
+    color: #fff;
+}
+.panel-heading {
+	background-color: #de4f4f;
+    color: #fff;
+	border-radius: 0;
+}
+.content-account-setting .panel-body {
+    overflow-y: scroll;
+    height: 250px;
+}
+.chat li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #B3A9A9;
+}
+.chat li.right .chat-body {
+    margin-right: 60px;
+}
+.chat li.left .chat-body {
+    margin-left: 60px;
+}

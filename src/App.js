@@ -6,7 +6,7 @@ import Footer from './parts/Footer';
 class App extends React.Component {
   render() {
     return (
-      <DocumentTitle title='Stormpath Express + React Example'>
+      <DocumentTitle title='More Phone'>
         <div className='App'>
           { this.props.children }
           <Footer />

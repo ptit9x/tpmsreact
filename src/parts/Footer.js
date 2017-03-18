@@ -9,7 +9,7 @@ export default class Footer extends React.Component {
           <div className="lines-page-full">
             <div id="alllist-footer">
               <div className="list-footer">
-                <img src="https://d14xs1qewsqjcd.cloudfront.net/assets/logo-black.svg" alt="" />
+                <img src="/logo_footer.png" alt="" />
                 <span className="des"> © 2017 Meteor Development Group Inc.
                   <br /><br />Open source downloads supported by Ptit9x
                 </span>
