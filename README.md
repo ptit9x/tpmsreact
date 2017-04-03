@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Stormpath React + Express Fullstack Example Project
 
 This repository is an example fullstack web application using React on the
@@ -27,6 +28,8 @@ You'll need to [Download an API Key Pair](https://docs.stormpath.com/rest/produc
 
 Provide the **API Key ID**, **API Key Secret**, and **Application Href** to your environment, with one of these strategies:
 
+=======
+>>>>>>> d63c3f46dd594cf1e7de9db1ae9142a1aa15cf5a
 **Unix Environment Variables:**
 
 ```bash
@@ -43,6 +46,7 @@ set STORMPATH_CLIENT_APIKEY_SECRET=YOUR_SECRET_HERE
 set STORMPATH_APPLICATION_HREF=YOUR_APP_HREF
 ```
 
+<<<<<<< HEAD
 **Place them in a file named `stormpath.yml`, in the directory where you run the dev server:**
 
 ```yaml
@@ -55,6 +59,9 @@ application:
 ```
 
 ## 4. Usage
+=======
+## Usage
+>>>>>>> d63c3f46dd594cf1e7de9db1ae9142a1aa15cf5a
 
 To start the server, run this command in the folder:
 
@@ -65,6 +72,7 @@ $ npm start
 If the server is able to start with your configuration, you will see this in
 your terminal:
 
+<<<<<<< HEAD
 ```bash
 Stormpath Ready
 Application running at http://localhost:3000
@@ -85,3 +93,7 @@ We're here to help if you get stuck.  There are several ways that you can get in
 [Stormpath Admin Console]: https://api.stormpath.com
 [stormpath-sdk-react]: https://github.com/stormpath/stormpath-sdk-react
 [express-stormpath]: https://github.com/stormpath/express-stormpath
+=======
+Stormpath Ready
+Application running at http://localhost:3000
+>>>>>>> d63c3f46dd594cf1e7de9db1ae9142a1aa15cf5a
